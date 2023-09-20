@@ -6,7 +6,9 @@ class Rectangle():
     # It sets an instance variable, "height" to the passed argument, height
 
     # YOUR CODE HERE
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
 
     # Create the "__str__" method
@@ -25,8 +27,6 @@ class Rectangle():
     #       False otherwise
 
     # YOUR CODE HERE
-
-
 
     # Create the "area" method
     #
